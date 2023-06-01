@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="SpecialPageHyperLink.ascx.cs" Inherits="UserControls_Hyperlinks_SpecialPageHyperLink" %>
+<asp:HyperLink ID="SpecialPageHyperlink" runat="server">View Page For Database Management</asp:HyperLink>

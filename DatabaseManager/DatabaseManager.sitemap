@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode title="Database Manager" roles="DatabaseManager" >
+        <siteMapNode url="~/DatabaseManager/GroupsView.aspx" title="List of Swimmers By Group" roles="DatabaseManager"   description="A list of swimmers by group" />
+        <siteMapNode url="~/DatabaseManager/Swimmers.aspx" title="Swimmer Info" roles="DatabaseManager"   description="A list of all swimmers on the site. Can be used to get and edit swimmer's and the parent's information" />
+        <siteMapNode url="~/DatabaseManager/Messages.aspx" title="Recent Update Messages" roles="DatabaseManager"  description="A list of recently updated information on the site" />
+        <siteMapNode url="~/DatabaseManager/AddToDatabase.aspx" title="Swimmers Waiting To Be Added To Database" roles="DatabaseManager"  description="Swimmers waiting to be added to the Hy-Tek database" />
+        <siteMapNode url="~/DatabaseManager/SpecialDatabaseManagerPage.aspx" title="Database Manager Page" roles="DatabaseManager"  description="The special page for the database manager">
+            <siteMapNode url="~/DatabaseManager/SwimmersWithNotes.aspx" title="Swimmers With System Generated Notes" roles="DatabaseManager"  description="Swimmers that have special information" />
+            <siteMapNode title="Database Errors" roles="DatabaseManager" >
+                <siteMapNode url="~/DatabaseManager/FamiliesWithNoSwimmers.aspx" title="Families Without Swimmers" roles="DatabaseManager"  description="Families that do not have any associated swimmers" />
+                <siteMapNode url="~/DatabaseManager/FamiliesWithoutParents.aspx" title="Families Without Parents" roles="DatabaseManager"  description="Families that do not have any associated parents" />
+                <siteMapNode url="~/DatabaseManager/FamiliesWithTooManyParents.aspx" title="Families With Too Many Parents" roles="DatabaseManager"  description="Families that have more than 2 parents associated" />
+                <siteMapNode url="~/DatabaseManager/ParentsWithoutFamilies.aspx" title="Parents Without Families" roles="DatabaseManager"  description="Parents that are not associated with any families" />
+                <siteMapNode url="~/DatabaseManager/SwimmersWithoutFamilies.aspx" title="Swimmers Without Families" roles="DatabaseManager"  description="Swimmers that are not associated with any families" />
+            </siteMapNode>
+            <siteMapNode url="~/DatabaseManager/DeleteSwimmer.aspx" title="Delete Swimmers" roles="DatabaseManager"  description="Completely delete a swimmer from the database" />
+            <siteMapNode url="~/DatabaseManager/LinkAttendances.aspx" title="Link Unregistered to Registered" roles="DatabaseManager"  description="Link a unregistered attendance swimmer to a registered swimmer" />
+        </siteMapNode>
+        <siteMapNode url="~/DatabaseManager/EventsManager.aspx" title="Manage Events" roles="DatabaseManager"  description="The event manager page">
+            <siteMapNode url="~/DatabaseManager/CreateEvents.aspx" title="Add New Events" roles="DatabaseManager"  description="Add new events" />
+            <siteMapNode url="~/DatabaseManager/ManageEventsForDay.aspx" title="Manage Events For Day" roles="DatabaseManager"  description="Manage events for a certain day" />
+            <siteMapNode url="~/DatabaseManager/ManageEventSpan.aspx" title="Manage Events for Multipe Days" roles="DatabaseManager" description="Manage events for more than one day" />
+        </siteMapNode>
+        <siteMapNode url="~/DatabaseManager/Meet/MeetEditor.aspx" title="Meet Editor" roles="DatabaseManager" description="Manage information for Meets and Sessions" />
+        <siteMapNode url="~/DatabaseManager/Meet/PreEntered.aspx" title="Pre-Entered" roles="DatabaseManager"  description="All the pre-entries" />
+        <siteMapNode url="~/DatabaseManager/Meet/ViewEntries.aspx" title="Meet Entries" roles="DatabaseManager" description="View all the event entries for the meet" />
+    </siteMapNode>
+</siteMap>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode title="Office Manager"  description="" roles="OfficeManager">
+        <siteMapNode url="~/OfficeManager/GroupsView.aspx" title="List of Swimmers By Group" roles="OfficeManager"  description="A list of swimmers by group" />
+        <siteMapNode url="~/OfficeManager/Swimmers.aspx" title="Swimmer Info" roles="OfficeManager"  description="A list of all swimmers on the site. Can be used to get and edit swimmer's and the parent's information" />
+        <siteMapNode url="~/OfficeManager/ApproveSwimmers.aspx" title="Swimmers waiting for Approval" roles="OfficeManager" description="A list of swimmers that have not yet paid their USA Swimming membership" />
+        <siteMapNode url="~/OfficeManager/Messages.aspx" title="Recent Update Messages" roles="OfficeManager" description="A list of recently updated information on the site" />
+        <siteMapNode url="~/OfficeManager/RecentTopTens.aspx" title="Top Ten List" roles="OfficeManager" description="View 12 &amp; Under Top Ten times for recognition cards" />
+        <siteMapNode url="~/OfficeManager/UnregisteredSwimmers.aspx" title="Unregistered Swimmers" roles="OfficeManager" description="A list of swimmers who have been in the water, but have not been registered on the website" />
+        <siteMapNode url="~/OfficeManager/BanquetList.aspx" title="Going to Banquet" roles="OfficeManager" description="View list of swimmers and parents going to the banquet" />
+        <siteMapNode url="~/Coach/AthleteSchoolInfo.aspx" title="School Info" roles="OfficeManager" description="View School information for all the athletes" />
+        <siteMapNode title="Volunteer System" roles="OfficeManager">
+            <siteMapNode url="~/OfficeManager/Jobs/JobTypes.aspx" title="Manage Job Types" roles="OfficeManager" description="Manage the types of jobs available" />
+            <siteMapNode url="~/OfficeManager/Jobs/JobOpenings.aspx" title="Manage Jobs" roles="OfficeManager" description="Manage the jobs and job openings for events" />
+        </siteMapNode>
+    </siteMapNode>
+</siteMap>

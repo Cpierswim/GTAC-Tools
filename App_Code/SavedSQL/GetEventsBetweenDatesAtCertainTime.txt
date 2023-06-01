@@ -1,0 +1,5 @@
+﻿SELECT EventID, Name, DateandTime, GroupID, EndTime
+FROM     Events
+WHERE  (GroupID = @GroupID) AND (DATEPART(HH, DateandTime) = @BeginHour) AND (DATEPART(mi, DateandTime) = @BeginMinute) AND (DATEPART(MM, DateandTime) 
+                  = @Month) AND (DATEPART(DD, DateandTime) >= @StartDate) AND (DATEPART(DD, DateandTime) <= @EndDate)
+ORDER BY DateandTime

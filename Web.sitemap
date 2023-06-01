@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode title="Home Page" roles="Coach, OfficeManager, DatabaseManager, Admin" url="~/Default.aspx">
+        <siteMapNode siteMapFile="~/Coach/Coach.sitemap"  securityTrimmingEnabled="true" />
+        <siteMapNode siteMapFile="~/OfficeManager/OfficeManager.sitemap"  securityTrimmingEnabled="true"  />
+        <siteMapNode siteMapFile="~/DatabaseManager/DatabaseManager.sitemap"  securityTrimmingEnabled="true"  />
+        <siteMapNode siteMapFile="~/Admin/Admin.sitemap"  securityTrimmingEnabled="true"  />
+        <siteMapNode url="~/All/MembersMap.aspx" title="Family Map" description="A map of all the active families on the team" roles="Coach, OfficeManager, DatabaseManager, Admin" />
+    </siteMapNode>
+</siteMap>

@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="GroupEmailer.ascx.cs" Inherits="UserControls_Hyperlinks_GroupEmailer" %>
+<asp:HyperLink ID="GroupEmailerHyperLink" runat="server">Send an Email to a Group</asp:HyperLink>

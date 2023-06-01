@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode title="Coach Items"  description="" roles="Coach">
+        <siteMapNode url="~/DatabaseManager/GroupsView.aspx" title="List of Swimmers By Group" roles="Coach"  description="A list of swimmers by group" />
+        <siteMapNode url="~/Coach/NewEmailGroup.aspx" title="Send Email to Group" roles="Coach"  description="Send an e-mail to parents and/or swimmers in a certain group" />
+        <siteMapNode url="~/Coach/CoachCalendar.aspx" title="Groups Calendar" roles="Coach" description="Monthly Calendar for Groups" />
+        <siteMapNode url="~/Coach/AthleteSchoolInfo.aspx" title="School Info" roles="Coach" description="View School information for all the athletes" />
+        <siteMapNode url="~/Coach/Meet/PickEvents.aspx" title="Pick Meet Events" roles="Coach" description="Pick swimmers' events" />
+        <siteMapNode url="~/Coach/MeetSignupsList.aspx" title="Signed Up Table" roles="Coach" description="Who is signed up for what meet" />
+        <siteMapNode url="~/Coach/Attendance.aspx" title="Attendance" roles="Coach" description="Manage Attendance" />
+        <siteMapNode url="~/Coach/ViewAttendance.aspx" title="Attendance Table" roles="Coach" description="View a group's attendance percentages and other info" />
+        <siteMapNode url="~/Coach/BestTimes.aspx" title="Best Times" roles="Coach" description="View all athlete's best times" />
+    </siteMapNode>
+</siteMap>

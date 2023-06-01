@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="TopTensSinceHyperLink.ascx.cs" Inherits="UserControls_Hyperlinks_TopTensSinceHyperLink" %>
+<asp:HyperLink ID="TopTensSinceHyperLink" runat="server">View all Top Tens Since a Certain Date</asp:HyperLink>

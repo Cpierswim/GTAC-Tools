@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="ManageCreditsHyperLink.ascx.cs" Inherits="UserControls_Hyperlinks_ManageCreditsHyperLink" %>
+<asp:HyperLink ID="ManageCreditsHyperLink" runat="server">Manage Meet Credits For Families</asp:HyperLink>

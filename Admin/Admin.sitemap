@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title="Administrator"  description="" roles="Administrator">
+        <siteMapNode url="~/Admin/CreateSpecialAccount.aspx" title="Create a Special Account" roles="Administrator"  description="Create a non-Parent Account" />
+        <siteMapNode url="~/Admin/SetupApplication.aspx" title="Setup Page" roles="Administrator"  description="The page that sets up the website" />
+        <siteMapNode url="~/Admin/Groups.aspx" title="Create or Edit Groups" roles="Administrator" description="Create or edit the groups" />
+        <siteMapNode url="~/Admin/ViewMembers.aspx" title="Manage User Accounts" roles="Administrator" description="Manage the user accounts on the website" />
+    </siteMapNode>
+</siteMap>

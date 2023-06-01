@@ -1,0 +1,17 @@
+﻿Hello <%UserName%>! Thank you for joining the Greater Toledo Aquatic Club.<br />
+<br />
+Your new account is almost ready, but before you can login you must first visit:
+<a href="<%VerificationUrl%>"><%VerificationUrl%></a><br />
+<br />
+Visit the Verification Link to complete the registration process. Once your account is verified, you will be
+able to add swimmers to your account. If no swimmers are added within 2 days, the account may be deleted.<br />
+<br />
+If you have any problems or questions, please reply to this email.<br />
+<br />
+Thanks!<br />
+<br />
+-- <br />
+Chris Pierson<br />
+-Greater Toledo Aquatic Club<br />
+-OSI Webmaster
+

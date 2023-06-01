@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="CoachViewCalendar.ascx.cs" Inherits="UserControls_Hyperlinks_CoachViewCalendar" %>
+<asp:HyperLink ID="CoachViewCalendarHyperLink" runat="server">View Groups Calendar</asp:HyperLink>

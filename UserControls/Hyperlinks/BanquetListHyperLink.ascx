@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="BanquetListHyperLink.ascx.cs" Inherits="UserControls_Hyperlinks_BanquetListHyperLink" %>
+<asp:HyperLink ID="ApproveSwimmersHyperLink" runat="server"><br /><br />View list of families going to the banquet</asp:HyperLink>

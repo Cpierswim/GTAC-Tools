@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="ViewMeetEntriesHyperlink.ascx.cs" Inherits="UserControls_Hyperlinks_ViewMeetEntriesHyperlink" %>
+<asp:HyperLink ID="ViewMeetEntriesHyperlink" runat="server">View Meet Entries</asp:HyperLink>

@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="EventsManagerHyperLink.ascx.cs" Inherits="UserControls_Hyperlinks_EventsManagerHyperLink" %>
+<asp:HyperLink ID="ManageEventsHyperLink" runat="server">Manage Events</asp:HyperLink>
