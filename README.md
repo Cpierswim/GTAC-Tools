@@ -29,7 +29,7 @@ The non-CMS portion of the Greater Toledo Aquatic Club website. This was a major
 ### Carpool Map
  - Used the Google Maps API to filter members by group so members could set up car pools and would suggest carpools (this feature is not available anywhere else commercially currently)
 
-### Database Manager (my accound)
+### Database Manager (my account)
  - Primarily responsible for taking care of the data for the team
  - Ability to add an update meets to the competition schedule (using file provided from meet hosts)
  - Ability to edit sessions (usually provided automatically by a file from the meet hosts)
