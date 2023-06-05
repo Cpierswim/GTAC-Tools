@@ -1,7 +1,7 @@
 <h1 align="center">GTAC-Tools</h1>
 
 
-The non-CMS portion of the Greater Toledo Aquatic Club website. This was a major project that I undertook when the team's previous website provider went out of business and the competitor was multiple orders of magnitude more expensive. I taught myself ASP.NET in order to have a website that would replace all the features that we were using on the previous commercial site. I programmed about 75% of it in about 7 weeks, and kept adding features over the next 2 years as needed for the team. I made a seperate program that would use the database of this program and import the data into another program that we used for billing. We only had 1 person doing billing and they wanted to use the software they were used to, so I didn't create online billing. 
+The non-CMS portion of the Greater Toledo Aquatic Club website. This was a major project that I undertook when the team's previous website provider went out of business and the competitor was multiple orders of magnitude more expensive. I taught myself ASP.NET in order to have a website that would replace all the features that we were using on the previous commercial site. I programmed about 75% of it in about 7 weeks, and kept adding features over the next 2 years as needed for the team. I made a separate program that would use the database of this program and import the data into another program that we used for billing. We only had 1 person doing billing and they wanted to use the software they were used to, so I didn't create online billing. 
 
 ## All Features
 
@@ -57,8 +57,8 @@ The non-CMS portion of the Greater Toledo Aquatic Club website. This was a major
 ### Other details
  - 3 tiered data structure 
  - Was able to use and create files that were used by the desktop software that had a 99% market share at the time, especially important for use with Meet Management software
- - Used cutting edge technologies of the time, AJAX so a lot of the pagaes that used more concentration from the user did not require page reloading
- - Managed to update Microsoft automaticlly supplied code to be able to use batch inserts and batch updates for the coaches picking events. This cut time processing all the entries from several minutes on our previous website provider to less than .1 second. (This was only possible due to the new partial classes that had come out not long before.)
+ - Used cutting edge technologies of the time, AJAX so a lot of the pages that used more concentration from the user did not require page reloading
+ - Managed to update Microsoft automatically supplied code to be able to use batch inserts and batch updates for the coaches picking events. This cut time processing all the entries from several minutes on our previous website provider to less than .1 second. (This was only possible due to the new partial classes that had come out not long before.)
 
 
 
